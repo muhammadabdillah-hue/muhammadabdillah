@@ -1,202 +1,241 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Muhammad Abdillah | TJKT Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdillah | Portfolio TJKT</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
 
-<header>
-    <h2>ABDILLAH</h2>
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">ABDILLAH</div>
 
-    <nav>
-        <a href="#about">Tentang</a>
-        <a href="#skills">Skill</a>
-        <a href="#projects">Project</a>
-        <a href="#contact">Kontak</a>
-    </nav>
-</header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-<section class="hero">
+    <!-- HERO -->
+    <section class="hero">
 
-    <div class="hero-text">
+        <div class="hero-content">
 
-        <h1>Muhammad Abdillah</h1>
+            <h1>Hi, I'm <span>Abdillah</span></h1>
 
-        <h3>
-            Teknik Jaringan Komputer dan Telekomunikasi
-        </h3>
+            <h3>Student of TJKT | Future Network Engineer</h3>
+
+            <p>
+                Siswa Teknik Jaringan Komputer dan Telekomunikasi
+                SMK Wikrama Bogor yang memiliki minat dalam bidang
+                Networking, Linux Administration, Cloud Computing,
+                dan Infrastruktur Jaringan.
+            </p>
+
+            <a href="#projects" class="btn">
+                View Projects
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="images/profile.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <div class="about-box">
+
+            <p>
+                Saya adalah siswa TJKT SMK Wikrama Bogor yang sedang
+                mempersiapkan diri untuk Praktik Kerja Lapangan (PKL).
+                Saya memiliki kemampuan dasar dalam konfigurasi jaringan,
+                administrasi server Linux, cloud computing, dan instalasi
+                jaringan komputer.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skill-container">
+
+            <div class="skill-card">
+                <i class="fas fa-network-wired"></i>
+                <h3>Networking</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-wifi"></i>
+                <h3>MikroTik</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-linux"></i>
+                <h3>Linux</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-aws"></i>
+                <h3>AWS Cloud</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <h3>Cisco</h3>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-ethernet"></i>
+                <h3>Cabling</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <img src="images/mikrotik.png">
+
+                <h3>MikroTik Configuration</h3>
+
+                <p>
+                    Konfigurasi Hotspot Login, DHCP Server,
+                    Firewall dan Routing menggunakan MikroTik.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/linux.png">
+
+                <h3>Linux Server</h3>
+
+                <p>
+                    Instalasi Debian Server, Apache2,
+                    DNS Server dan SSH Server.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/aws.png">
+
+                <h3>AWS Cloud</h3>
+
+                <p>
+                    Deploy EC2 Instance, VPC,
+                    Security Group dan Web Hosting.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/cisco.png">
+
+                <h3>Cisco Networking</h3>
+
+                <p>
+                    VLAN, Routing, Switching
+                    dan Simulasi Packet Tracer.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/cabling.png">
+
+                <h3>Network Cabling</h3>
+
+                <p>
+                    Crimping Kabel UTP,
+                    RJ45 dan LAN Testing.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates">
+
+        <h2>Certificates</h2>
+
+        <div class="certificate-container">
+
+            <div class="certificate-card">
+                <img src="images/sertifikat1.jpg" alt="">
+            </div>
+
+            <div class="certificate-card">
+                <img src="images/sertifikat2.jpg" alt="">
+            </div>
+
+            <div class="certificate-card">
+                <img src="images/sertifikat3.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>muhammadabdillah@smkwikrama.sch.id</p>
+            </div>
+
+            <div class="contact-card">
+                <i class="fab fa-whatsapp"></i>
+                <h3>WhatsApp</h3>
+                <p>089519144055</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
 
         <p>
-            Siswa SMK Wikrama Bogor yang memiliki minat pada
-            Networking, Linux Administration, Cloud Computing,
-            dan Monitoring Server.
+            © 2026 Abdillah Portfolio | TJKT Student
         </p>
 
-        <a href="cv.pdf" class="btn">
-            Download CV
-        </a>
-
-    </div>
-
-    <div class="hero-image">
-        <img src="foto.jpg" alt="Muhammad Abdillah">
-    </div>
-
-</section>
-
-<section id="about">
-
-    <h2>Tentang Saya</h2>
-
-    <div class="card">
-
-        Saya merupakan siswa jurusan Teknik Jaringan
-        Komputer dan Telekomunikasi (TJKT) SMK Wikrama
-        Bogor yang memiliki semangat belajar tinggi,
-        disiplin, dan mampu bekerja sama dalam tim.
-
-        Saat ini saya sedang mempersiapkan diri untuk
-        mengikuti Praktik Kerja Lapangan (PKL) guna
-        meningkatkan kemampuan teknis dan profesional
-        di bidang teknologi informasi.
-
-    </div>
-
-</section>
-
-<section id="skills">
-
-    <h2>Keahlian</h2>
-
-    <div class="grid">
-
-        <div class="card">
-            <h3>Networking</h3>
-            <ul>
-                <li>TCP/IP</li>
-                <li>Subnetting</li>
-                <li>Routing</li>
-                <li>Switching</li>
-                <li>MikroTik</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h3>Linux Server</h3>
-            <ul>
-                <li>Debian</li>
-                <li>SSH</li>
-                <li>Apache</li>
-                <li>User Management</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h3>Cloud Computing</h3>
-            <ul>
-                <li>AWS EC2</li>
-                <li>AWS VPC</li>
-                <li>Security Group</li>
-                <li>Route Table</li>
-            </ul>
-        </div>
-
-        <div class="card">
-            <h3>Tools</h3>
-            <ul>
-                <li>Winbox</li>
-                <li>PuTTY</li>
-                <li>VirtualBox</li>
-                <li>Nagios Core</li>
-                <li>Cisco Packet Tracer</li>
-                <li>GitHub</li>
-            </ul>
-        </div>
-
-    </div>
-
-</section>
-
-<section id="projects">
-
-    <h2>Project & Praktikum</h2>
-
-    <div class="grid">
-
-        <div class="card">
-            <h3>Build AWS VPC & EC2</h3>
-            <p>
-                Membuat VPC, subnet, route table,
-                security group dan deploy EC2.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Linux Web Server</h3>
-            <p>
-                Instalasi dan konfigurasi Apache
-                pada Debian Server.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Nagios Monitoring</h3>
-            <p>
-                Monitoring host dan service
-                menggunakan Nagios Core.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Network Topology</h3>
-            <p>
-                Simulasi topologi jaringan menggunakan
-                Cisco Packet Tracer.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
-<section id="contact">
-
-    <h2>Kontak</h2>
-
-    <div class="grid">
-
-        <div class="card">
-            <h3>Email</h3>
-            <p>
-                muhammadabdillah@smkwikrama.sch.id
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>WhatsApp</h3>
-            <p>
-                0895-1914-4055
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>GitHub</h3>
-            <p>
-                github.com/muhammadabdillah-hue
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
-<footer>
-    © 2026 Muhammad Abdillah
-</footer>
+    </footer>
 
 </body>
 </html>
