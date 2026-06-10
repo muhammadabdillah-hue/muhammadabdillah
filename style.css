@@ -251,31 +251,49 @@ box-shadow:
 
 .contact-container{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:25px;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:30px;
 }
 
 .contact-card{
     background:#1e293b;
-    padding:30px;
-    border-radius:20px;
+    padding:30px 20px;
+    border-radius:15px;
     text-align:center;
+    border:1px solid rgba(56,189,248,.2);
+    transition:.3s;
 }
 
+.contact-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(56,189,248,.3);
+}
+
+/* ICON STYLE */
 .contact-card i{
     font-size:40px;
     color:#38bdf8;
-    margin-bottom:15px;
-}
-
-.contact-card h3{
     margin-bottom:10px;
 }
 
-.contact-card p{
-    color:#cbd5e1;
+/* TITLE */
+.contact-card h3{
+    color:#ffffff;
+    margin-bottom:8px;
 }
 
+/* LINK */
+.contact-card a{
+    color:#cbd5e1;
+    text-decoration:none;
+    word-break:break-word;
+    transition:.3s;
+}
+
+.contact-card a:hover{
+    color:#38bdf8;
+}
 /* FOOTER */
 
 footer{
