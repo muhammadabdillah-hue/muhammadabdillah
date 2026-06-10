@@ -36,6 +36,10 @@
 
             <h1>Hi, I'm <span>Muhammad Abdillah</span></h1>
 
+            <h2>
+                <span id="typing"></span>
+            </h2>
+
             <h3>Student of TJKT | Future Network Engineer</h3>
 
             <p>
@@ -269,7 +273,49 @@
 AOS.init({
     duration:1000
 });
-</script>
+<script>
 
+const texts = [
+    "TJKT Student",
+    "Network Engineer Enthusiast",
+    "Linux Administrator",
+    "Cloud Computing Learner"
+];
+
+let i = 0;
+let j = 0;
+let current = "";
+let isDeleting = false;
+
+function typeEffect(){
+
+    current = texts[i];
+
+    if(isDeleting){
+        j--;
+    }else{
+        j++;
+    }
+
+    document.getElementById("typing").textContent =
+    current.substring(0, j);
+
+    if(!isDeleting && j === current.length){
+        isDeleting = true;
+        setTimeout(typeEffect, 1500);
+        return;
+    }
+
+    if(isDeleting && j === 0){
+        isDeleting = false;
+        i = (i + 1) % texts.length;
+    }
+
+    setTimeout(typeEffect, isDeleting ? 50 : 100);
+}
+
+typeEffect();
+
+</script>
 </body>
 </html>
