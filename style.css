@@ -204,26 +204,42 @@ section h2{
 
 .certificate-container{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
     gap:25px;
 }
 
 .certificate-card{
-    overflow:hidden;
+    background:#1e293b;
+    padding:30px;
     border-radius:20px;
-    transition:.3s;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+    border:1px solid rgba(56,189,248,0.2);
 }
 
 .certificate-card:hover{
-    transform:scale(1.03);
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(56,189,248,0.25);
 }
 
-.certificate-card img{
-    width:100%;
-    display:block;
-    border-radius:20px;
+.certificate-card i{
+    font-size:70px;
+    color:#ef4444;
+    margin-bottom:15px;
 }
 
+.certificate-card h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+    font-size:20px;
+}
+
+.certificate-card p{
+    color:#cbd5e1;
+    font-size:14px;
+}
 /* CONTACT */
 
 .contact-container{
