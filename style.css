@@ -102,6 +102,9 @@ nav a:hover{
     border-radius:50%;
     border:5px solid #38bdf8;
     box-shadow:0 0 40px rgba(56,189,248,.5);
+    box-shadow:
+    0 0 30px #38bdf8,
+    0 0 60px rgba(56,189,248,.5);
 }
 
 /* SECTION */
@@ -179,8 +182,12 @@ section h2{
 }
 
 .project-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 15px 30px rgba(56,189,248,.25);
+transform:translateY(-10px);
+
+box-shadow:
+0 0 20px rgba(56,189,248,.3),
+0 0 40px rgba(56,189,248,.2);
+
 }
 
 .project-card img{
