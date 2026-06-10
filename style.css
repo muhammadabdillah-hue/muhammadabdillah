@@ -246,6 +246,46 @@ box-shadow:
 .certificate-card p{
     color:#cbd5e1;
     font-size:14px;
+}.cert-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.cert-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    border:1px solid rgba(56,189,248,.2);
+    transition:.3s;
+}
+
+.cert-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(56,189,248,.3);
+}
+
+/* icon pdf */
+.cert-card i{
+    font-size:45px;
+    color:#ef4444; /* merah PDF */
+    margin-bottom:10px;
+}
+
+.cert-card h3{
+    color:#fff;
+    margin-bottom:10px;
+}
+
+.cert-card a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+.cert-card a:hover{
+    color:#ffffff;
 }
 /* CONTACT */
 
