@@ -304,4 +304,25 @@ footer{
     nav a{
         margin:0 10px;
     }
+
+    .skill-progress{
+margin-top:50px;
+}
+
+.skill-progress h3{
+margin:15px 0;
+}
+
+.bar{
+height:12px;
+background:#334155;
+border-radius:30px;
+overflow:hidden;
+}
+
+.fill{
+height:100%;
+background:#38bdf8;
+border-radius:30px;
+
 }
