@@ -333,3 +333,19 @@ background:#38bdf8;
 border-radius:30px;
 
 }
+
+#typing{
+    color:#38bdf8;
+    font-weight:600;
+}
+
+#typing::after{
+    content:"|";
+    animation:blink .7s infinite;
+}
+
+@keyframes blink{
+    50%{
+        opacity:0;
+    }
+}
