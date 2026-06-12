@@ -275,6 +275,50 @@ box-shadow:
 .cert-card a:hover{
     color:#ffffff;
 }
+
+/* Tujuan PKL */
+#goals{
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.goals-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.goal-card{
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(56,189,248,0.2);
+    transition: 0.3s;
+}
+
+.goal-card:hover{
+    transform: translateY(-8px);
+    border-color: #38bdf8;
+    box-shadow: 0 0 20px rgba(56,189,248,0.3);
+}
+
+.goal-card i{
+    font-size: 40px;
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+.goal-card h3{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.goal-card p{
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
 /* CONTACT */
 
 .contact-container{
