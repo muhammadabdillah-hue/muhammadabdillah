@@ -209,48 +209,12 @@ box-shadow:
 
 /* CERTIFICATE */
 
-.certificate-container{
+/* ===== CERTIFICATES ===== */
+
+.cert-container{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:25px;
-}
-
-.certificate-card{
-    background:#1e293b;
-    padding:30px;
-    border-radius:20px;
-    text-align:center;
-    text-decoration:none;
-    color:white;
-    transition:0.3s;
-    border:1px solid rgba(56,189,248,0.2);
-}
-
-.cert-card i{
-    font-size:50px;
-    color:#ef4444;
-    margin-bottom:10px;
-}
-
-.certificate-card i{
-    font-size:70px;
-    color:#ef4444;
-    margin-bottom:15px;
-}
-
-.certificate-card h3{
-    color:#38bdf8;
-    margin-bottom:10px;
-    font-size:20px;
-}
-
-.certificate-card p{
-    color:#cbd5e1;
-    font-size:14px;
-}.cert-container{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
     margin-top:30px;
 }
 
@@ -260,7 +224,7 @@ box-shadow:
     border-radius:15px;
     text-align:center;
     border:1px solid rgba(56,189,248,.2);
-    transition:.3s;
+    transition:0.3s;
 }
 
 .cert-card:hover{
@@ -268,10 +232,33 @@ box-shadow:
     box-shadow:0 0 25px rgba(56,189,248,.3);
 }
 
+.cert-card i{
+    font-size:50px;
+    color:#ef4444;
+    margin-bottom:15px;
+}
+
+.cert-card h3{
+    color:#ffffff;
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.cert-card a{
+    color:#38bdf8;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.cert-card a:hover{
+    color:#ffffff;
+}
+
 /* icon pdf */
 .cert-card i{
     font-size:45px;
-    color:#ef4444; /* merah PDF */
+    color:#ef4444; 
     margin-bottom:10px;
 }
 
