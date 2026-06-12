@@ -245,7 +245,7 @@ box-shadow:
 }
 
 .cert-info h3{
-    color:#ffffff;
+    color:#ffffff !important;
     font-size:20px;
     font-weight:600;
     height:60px;
