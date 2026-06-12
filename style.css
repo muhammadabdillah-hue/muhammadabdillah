@@ -214,8 +214,9 @@ box-shadow:
 /* Certificates */
 
 .cert-gallery{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
     gap:25px;
     margin-top:40px;
 }
@@ -226,6 +227,8 @@ box-shadow:
     overflow:hidden;
     border:1px solid rgba(56,189,248,.2);
     transition:0.3s ease;
+    width:300px;
+    min-height:360px;
 }
 
 .cert-card:hover{
@@ -247,8 +250,13 @@ box-shadow:
 
 .cert-info h3{
     color:#fff;
-    margin-bottom:15px;
     font-size:18px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    margin-bottom:15px;
 }
 
 .cert-info a{
