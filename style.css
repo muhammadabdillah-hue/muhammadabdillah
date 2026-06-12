@@ -444,3 +444,13 @@ border-radius:30px;
     }
 }
 
+.cert-info h3{
+    color:white !important;
+    text-decoration:none !important;
+    pointer-events:none;
+}
+
+.cert-info h3 a{
+    color:white !important;
+    text-decoration:none !important;
+}
